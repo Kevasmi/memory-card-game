@@ -10,5 +10,7 @@ export default function CardList(props) {
     </Grid>
   ));
 
-  return <Grid container>{cardArray}</Grid>;
+  const shuffleArray = (arr) => [...arr].sort(() => Math.random() - 0.5);
+
+  return <Grid container>{shuffleArray(cardArray)}</Grid>;
 }
