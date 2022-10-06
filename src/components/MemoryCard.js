@@ -6,16 +6,21 @@ import Typography from '@mui/material/Typography';
 
 export default function MemoryCard(props) {
   return (
-    <Card sx={{ width: 300, cursor: 'pointer' }}>
+    <Card
+      sx={{ width: 300, marginBottom: 3, cursor: 'pointer' }}
+      onClick={() => {
+        props.onClick();
+      }}
+    >
       <CardMedia
         component='img'
-        sx={{ height: 400 }}
-        image={require('../imgs/Luke Skywalker.jpg')}
-        alt='Luke Skywalker'
+        sx={{ height: 380 }}
+        image={props.card.src}
+        alt={props.card.name}
       />
       <CardContent sx={{ maxHeight: 20 }}>
         <Typography variant='h6' color='text.secondary'>
-          Luke Skywalker
+          {props.card.name}
         </Typography>
       </CardContent>
     </Card>
