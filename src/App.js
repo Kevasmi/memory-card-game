@@ -1,5 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
+import Typography from '@mui/material/Typography';
 import Header from './components/Header';
 import CardList from './components/CardList';
 import cardData from './components/utilities/cardData';
@@ -29,6 +30,14 @@ function App() {
     <div>
       <Header></Header>
       <main className='gameboard'>
+        <Typography
+          variant='h6'
+          sx={{
+            fontWeight: 'bold',
+          }}
+        >
+          Score: {score}
+        </Typography>
         <CardList onClick={handleCardClick} cardData={cards} />
       </main>
     </div>

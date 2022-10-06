@@ -15,11 +15,11 @@ export default function MemoryCard(props) {
       <CardActionArea>
         <CardMedia
           component='img'
-          sx={{ height: 380 }}
+          sx={{ height: 375 }}
           image={props.card.src}
           alt={props.card.name}
         />
-        <CardContent sx={{ maxHeight: 20 }}>
+        <CardContent sx={{ height: 15 }}>
           <Typography variant='h6' color='text.secondary'>
             {props.card.name}
           </Typography>
