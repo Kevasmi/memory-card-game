@@ -1,15 +1,14 @@
 import './App.css';
 import React from 'react';
 import Header from './components/Header';
-import MemoryCard from './components/MemoryCard';
-import { v4 as uuidv4 } from 'uuid';
+import CardList from './components/CardList';
 
 function App() {
   return (
     <div>
       <Header></Header>
       <main className='gameboard'>
-        <MemoryCard></MemoryCard>
+        <CardList />
       </main>
     </div>
   );
