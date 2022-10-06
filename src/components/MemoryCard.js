@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
+import { CardActionArea } from '@mui/material';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
@@ -8,21 +9,22 @@ export default function MemoryCard(props) {
   return (
     <Card
       sx={{ width: 300, marginBottom: 3, cursor: 'pointer' }}
-      onClick={() => {
-        props.onClick();
-      }}
+      id={props.id}
+      onClick={props.onClick}
     >
-      <CardMedia
-        component='img'
-        sx={{ height: 380 }}
-        image={props.card.src}
-        alt={props.card.name}
-      />
-      <CardContent sx={{ maxHeight: 20 }}>
-        <Typography variant='h6' color='text.secondary'>
-          {props.card.name}
-        </Typography>
-      </CardContent>
+      <CardActionArea>
+        <CardMedia
+          component='img'
+          sx={{ height: 380 }}
+          image={props.card.src}
+          alt={props.card.name}
+        />
+        <CardContent sx={{ maxHeight: 20 }}>
+          <Typography variant='h6' color='text.secondary'>
+            {props.card.name}
+          </Typography>
+        </CardContent>
+      </CardActionArea>
     </Card>
   );
 }
