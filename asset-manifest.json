@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/memory-card-game/static/css/main.76b22054.css",
+    "main.js": "/memory-card-game/static/js/main.45291720.js",
+    "static/media/Bobba Fett.jpg": "/memory-card-game/static/media/Bobba Fett.d6ee1ab7a18691f7d760.jpg",
+    "static/media/R2-D2.jpg": "/memory-card-game/static/media/R2-D2.c7910b2f4e1bdd76e6fb.jpg",
+    "static/media/Palpatine.jpg": "/memory-card-game/static/media/Palpatine.8b84f663ec01641a3d57.jpg",
+    "static/media/C3PO.jpg": "/memory-card-game/static/media/C3PO.0d04b01c3c85738b9988.jpg",
+    "static/media/Leia Organa.jpg": "/memory-card-game/static/media/Leia Organa.688caaed9f4d4293c3ac.jpg",
+    "static/media/Darth Vader.jpeg": "/memory-card-game/static/media/Darth Vader.699185ef06cd490abaed.jpeg",
+    "static/media/lukeSkywalker.jpg": "/memory-card-game/static/media/lukeSkywalker.1b4953259660702ec8cb.jpg",
+    "static/media/Lando Calrissian.webp": "/memory-card-game/static/media/Lando Calrissian.0de2e3df637f32a384d9.webp",
+    "static/media/Chewbacca.jpg": "/memory-card-game/static/media/Chewbacca.fcb70d0aa876640ce25d.jpg",
+    "static/media/Han Solo.jpg": "/memory-card-game/static/media/Han Solo.43dde879403d6c2ad9e3.jpg",
+    "static/media/Obi-Wan Kenobi.webp": "/memory-card-game/static/media/Obi-Wan Kenobi.e965018bcc648eb544df.webp",
+    "static/media/Ackbar.webp": "/memory-card-game/static/media/Ackbar.80a7e280e28f49e967df.webp",
+    "index.html": "/memory-card-game/index.html",
+    "main.76b22054.css.map": "/memory-card-game/static/css/main.76b22054.css.map",
+    "main.45291720.js.map": "/memory-card-game/static/js/main.45291720.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76b22054.css",
+    "static/js/main.45291720.js"
+  ]
+}
