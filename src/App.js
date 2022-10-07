@@ -2,7 +2,7 @@ import './App.css';
 import React, { useState } from 'react';
 import Typography from '@mui/material/Typography';
 import Header from './components/Header';
-import TransitionsModal from './components/Modal';
+import TransitionsModal from './components/TransitionsModal';
 import CardList from './components/CardList';
 import cardData from './components/utilities/cardData';
 
