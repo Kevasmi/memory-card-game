@@ -1,5 +1,5 @@
 import ackbar from '../imgs/Ackbar.webp';
-import bobbaFett from '../imgs/Bobba Fett.jpg';
+import bobaFett from '../imgs/Bobba Fett.jpg';
 import C3PO from '../imgs/C3PO.jpg';
 import chewbacca from '../imgs/Chewbacca.jpg';
 import vader from '../imgs/Darth Vader.jpeg';
@@ -20,8 +20,8 @@ const cardData = [
     clicked: false,
   },
   {
-    name: 'Bobba Fett',
-    src: bobbaFett,
+    name: 'Boba Fett',
+    src: bobaFett,
     id: uuidv4(),
     clicked: false,
   },
